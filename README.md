@@ -8,13 +8,14 @@ Este repositório contém os scripts para realização de uma análise de dados 
 1. Instale o `R` e o `RStudio`.
 
 * [R](https://cran.r-project.org/)
+
 * [RStudio](https://posit.co/downloads/)
 
 2. Abra o RStudio e instale os pacotes necessários.
 
 * GGIR
 
-```bash
+```r
 install.packages("GGIR", dependencies = TRUE) 
 ```
 
