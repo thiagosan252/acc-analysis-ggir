@@ -14,7 +14,6 @@ GGIR(mode=c(1,2,3,4,5),
      outputdir= output_dir,
      do.report= c(2,4,5),
      do.imp= TRUE,
-     storefolderstruture= FALSE,
      overwrite= TRUE,
      #=====================
      # Part 1:
@@ -33,16 +32,9 @@ GGIR(mode=c(1,2,3,4,5),
      data_masking_strategy= 1,
      hrs.del.start= 0,
      hrs.del.end= 0,
-     maxdur= 8,
-     includedaycrit= 8,
-     M5L5res= 10,
-     winhr= c(5),
-     qlevels= NULL,
+     maxdur= 0,
+     includedaycrit= 16,
      qwindow= c(0,24),
-     ilevels= NULL
-     iglevels= NULL, 
-     mvpathreshold= c(201.4),
-     bout.metric= 4,
      epochvalues2csv= TRUE,
      #=====================
      # Part 3
@@ -59,25 +51,24 @@ GGIR(mode=c(1,2,3,4,5),
      def.noc.sleep = 1,
      loglocation= sleeplog_file,
      outliers.only= FALSE,
-     criterror= 4,
+     criterror= 3,
      colid= 1,
      coln1= 2,
-     do.visual= TRUE ,
+     do.visual= TRUE,
      #=====================
      # Part 5
      #=====================
      excludefirstlast.part5= FALSE,
-     save_ms5rawlevels= FALSE,
      threshold.lig= c(35.6),      threshold.mod = c(201.4),      threshold.vig = c(707),
-     boutcriter= 0.8,
+     bout.metric= 4,
      boutcriter.in= 0.9,      boutcriter.lig= 0.8,      boutcriter.mvpa= 0.8,
-     boutdur.in= c(1,10,30), boutdur.lig= c(1,10), boutdur.mvpa = c(1),
+     boutdur.in= c(10,20,30), boutdur.lig= c(1,5,10), boutdur.mvpa = c(1,5,10),
      includedaycrit.part5= 2/3,
-     timewindow= c('MM'),
+     timewindow= c('MM','WW'),
      #=====================
      # Visual report
      #=====================
      visualreport= TRUE,
      dofirstpage= TRUE,
-     viewingwindow= 2,
+     viewingwindow= 1,
 )
