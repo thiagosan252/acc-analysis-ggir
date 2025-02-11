@@ -46,6 +46,10 @@ install.packages("GGIR", dependencies = TRUE)
 * [GGIR Parameters](https://wadpac.github.io/GGIR/articles/GGIRParameters.html)
 * [GGIR training materials](https://www.accelting.com/ggir-training-materials/)
 
+## Exemplos
+
+No diretório `samples` estão disponíveis exemplos de scripts para os diferentes cenários de análise.
+
 ## Dúvidas
 
 Em caso de dúvidas, entre em contato com o autor do código.
