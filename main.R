@@ -15,10 +15,12 @@ GGIR(mode=c(1,2,3,4,5),
      do.report= c(2,4,5),
      do.imp= TRUE,
      overwrite= TRUE,
+     dec_reports= ",",
+     sep_reports= ";",
      #=====================
      # Part 1:
      #=====================
-     windowsizes = c(5,900,3600), 
+     windowsizes = c(5,900,3600),
      do.cal= TRUE,
      do.enmo= TRUE,
      do.mad= FALSE,
@@ -65,10 +67,15 @@ GGIR(mode=c(1,2,3,4,5),
      boutdur.in= c(10,20,30), boutdur.lig= c(1,5,10), boutdur.mvpa = c(1,5,10),
      includedaycrit.part5= 2/3,
      timewindow= c('MM','WW'),
+     do.sibreport= TRUE,
+     save_ms5rawlevels= TRUE,
+     save_ms5raw_format= c("csv","RData"),
      #=====================
      # Visual report
      #=====================
      visualreport= TRUE,
+     old_visualreport = TRUE,
      dofirstpage= TRUE,
-     viewingwindow= 1,
+     viewingwindow= 2,
+     visualreport_hrsPerRow= 24
 )
