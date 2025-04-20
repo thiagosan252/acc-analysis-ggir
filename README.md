@@ -2,21 +2,20 @@
 
 Este repositório contém os scripts para realização de uma análise de dados brutos de acelerômetro, utilizando a biblioteca `GGIR`.
 
-
 ## Primeiros Passos
 
 1. Instale o `R` e o `RStudio`.
 
-* [R](https://cran.r-project.org/)
+- [R](https://cran.r-project.org/)
 
-* [RStudio](https://posit.co/downloads/)
+- [RStudio](https://posit.co/downloads/)
 
 2. Abra o RStudio e instale os pacotes necessários.
 
-* GGIR
+- GGIR
 
 ```r
-install.packages("GGIR", dependencies = TRUE) 
+install.packages("GGIR", dependencies = TRUE)
 ```
 
 ## Utilização
@@ -25,11 +24,11 @@ install.packages("GGIR", dependencies = TRUE)
 
 2. Abra o arquivo `main.R` no RStudio.
 
- * Os diretórios de entrada e saída estão definidos no início do arquivo em `input_dir` e `output_dir`.
+- Os diretórios de entrada e saída estão definidos no início do arquivo em `input_dir` e `output_dir`.
 
- * Os arquivos de entrada devem ser no formato gt3x ou csv, contendo os dados brutos do acelerômetro.
+- Os arquivos de entrada devem ser no formato gt3x ou csv, contendo os dados brutos do acelerômetro.
 
- * Para utilizar o sleeplog, inclua o caminho do arquivo conforme definido em `sleeplog_file`.
+- Para utilizar o sleeplog, inclua o caminho do arquivo conforme definido em `sleeplog_file`.
 
 > [!NOTE]
 > Os diretórios no script são apenas de exemplo, podendo ser alterado de acordo com seu ambiente.
@@ -42,13 +41,15 @@ install.packages("GGIR", dependencies = TRUE)
 
 ## Links úteis
 
-* [GGIR](https://wadpac.github.io/GGIR/index.html)
-* [GGIR Parameters](https://wadpac.github.io/GGIR/articles/GGIRParameters.html)
-* [GGIR training materials](https://www.accelting.com/ggir-training-materials/)
+- [GGIR](https://wadpac.github.io/GGIR/index.html)
+- [GGIR Parameters](https://wadpac.github.io/GGIR/articles/GGIRParameters.html)
+- [GGIR training materials](https://www.accelting.com/ggir-training-materials/)
 
 ## Exemplos
 
 No diretório `samples` estão disponíveis exemplos de scripts para os diferentes cenários de análise.
+
+No diretório `data` estão disponíveis exemplos de arquivos de processamento para os diferentes cenários de análise.
 
 ## Dúvidas
 
